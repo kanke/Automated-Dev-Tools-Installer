@@ -25,10 +25,11 @@ def install_all_tools():
     print ("*** Installing Git ***")
     subprocess.call("brew install git", shell=True)
 
-# Development Application
+# Development Applications
 
     # Install java
     print ("*** Installing Java 8(AdoptOpenJDK) ***")
+    subprocess.call("brew tap homebrew/cask-versions", shell=True)
     subprocess.call("brew cask install adoptopenjdk8", shell=True)
 
     # Install nodeenv
@@ -58,7 +59,7 @@ def install_all_tools():
 
     # Install zoom
     print ("*** Installing Zoom ***")
-    subprocess.call("brew cask install zoom", shell=True)
+    subprocess.call("brew cask install zoomus", shell=True)
 
 # IDE & Text Editors
 
@@ -69,7 +70,8 @@ def install_all_tools():
 
 def print_tool_versions():
     print ("You have installed the following app versions")
-    subprocess.call(["brew list --versions", "brew cask list --versions"], shell=True)
+    subprocess.call("brew list --versions", shell=True)
+    subprocess.call("brew cask list --versions", shell=True)
 
 
 
