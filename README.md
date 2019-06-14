@@ -39,6 +39,8 @@ Latest version of all apps are installed except otherwise stated.
 ### Using executable file(MAC OS)
 > Double click on the `setup-dev-mac.command` to run
 
+![Imgur](https://imgur.com/XgR0TuN.png)
+
 ![Imgur](https://imgur.com/2Pr9zqH.png)
 
 ![Imgur](https://imgur.com/2dKPkAN.png)
