@@ -14,9 +14,13 @@ Latest version of all apps are installed except otherwise stated.
 
 > Node Environment(Node/NPM)
 
-> Atlassian SDK
+> Atlassian SDK 6
 
 > Docker
+
+> Ngrok
+
+> Yarn
 
 > iTerm2
 
